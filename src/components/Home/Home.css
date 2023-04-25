@@ -7,7 +7,7 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .box {
     height: 100vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);

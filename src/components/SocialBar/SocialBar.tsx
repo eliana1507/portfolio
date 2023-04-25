@@ -3,7 +3,7 @@ import { FiMail } from 'react-icons/fi';
 
 const SocialBar = () => {
   return (
-    <div className="flex text-2xl py-4 px-8 items-center justify-between">
+    <div className="flex text-2xl py-4 px-8 items-center justify-center mt-4">
       <div className="flex space-x-4">
         <a href="https://uk.linkedin.com/in/eliana-cappello-57317467" className="text-gray-600 hover:text-gray-800">
           <FaLinkedin />
