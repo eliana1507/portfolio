@@ -4,10 +4,12 @@ import { Home } from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App box">
-      <Home />
+    <>
+      <div className="App box">
+        <Home />
+      </div>
       <About />
-    </div>
+    </>
   );
 }
 
