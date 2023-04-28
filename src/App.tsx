@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About/About';
 import { Home } from './components/Home/Home';
 import { WorksHistory } from './components/WorksHistory/WorksHistory';
+import { WorksHistoryMobile } from './components/WorksHistory/WorksHistoryMobile/WorksHistoryMobile';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Home />
       </div>
       <About />
+      <WorksHistoryMobile />
       <WorksHistory />
     </>
   );
