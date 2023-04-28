@@ -1,7 +1,7 @@
 import './App.css';
 import About from './components/About/About';
 import { Home } from './components/Home/Home';
-import { WorkHistory } from './components/WorksHistory/WorksHistory';
+import { WorksHistory } from './components/WorksHistory/WorksHistory';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Home />
       </div>
       <About />
-      <WorkHistory />
+      <WorksHistory />
     </>
   );
 }
