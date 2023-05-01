@@ -1,0 +1,66 @@
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: -12px;
+}
+
+.ico-position {
+  left: -16px;
+}
+
+.animate-lg-work {
+  animation-name: lg-work;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.animate-lg-icon {
+  animation-name: lg-workIcon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.animate-lg-right-work {
+  animation-name: lg-right-work;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes lg-work {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes lg-workIcon {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes lg-right-work {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
