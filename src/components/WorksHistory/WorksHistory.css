@@ -11,6 +11,14 @@
   left: -16px;
 }
 
+.margin-end {
+  margin-right: -60px;
+}
+
+.margin-start {
+  margin-left: -60px;
+}
+
 .animate-lg-work {
   animation-name: lg-work;
   animation-duration: 2s;
