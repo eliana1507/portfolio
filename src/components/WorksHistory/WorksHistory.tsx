@@ -1,6 +1,6 @@
 import workList from '../../utils/worksHistory.json'
 import { InView } from 'react-intersection-observer';
-import { FaJava } from 'react-icons/fa';
+import { FaJava, FaPhp } from 'react-icons/fa';
 import './WorksHistory.css';
 
 export const WorksHistory = () => {
@@ -24,9 +24,15 @@ export const WorksHistory = () => {
 
                     <div className="col-span-1 mx-auto w-4 bg-indigo-500 relative">
                       <div className={`circle bg-indigo-500 ${index > 0 && 'hidden'}`}></div>
-                      <FaJava className={`absolute text-5xl top-1/2 ico-position bg-white py-2 rounded-full text-orange-500
-                      ${inView ? 'animate-lg-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
-                    `} />
+                      {work.companyName !== 'Capify' ?
+                        <FaJava className={`absolute text-5xl top-1/2 ico-position bg-white py-2 rounded-full text-orange-500
+                          ${inView ? 'animate-lg-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
+                        `} />
+                        :
+                        <FaPhp className={`absolute text-5xl top-1/2 ico-position bg-white py-2 rounded-full text-orange-500
+                          ${inView ? 'animate-lg-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
+                        `} />
+                      }
                     </div>
                     <div className="col-span-2"></div>
                   </>
@@ -34,9 +40,15 @@ export const WorksHistory = () => {
                   <>
                     <div className="col-span-2"></div>
                     <div className="col-span-1 mx-auto w-4 bg-indigo-500 relative">
-                      <FaJava className={`absolute text-5xl top-1/2 ico-position bg-white py-2 rounded-full text-orange-500
-                      ${inView ? 'animate-lg-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
-                    `} />
+                      {work.companyName !== 'Capify' ?
+                        <FaJava className={`absolute text-5xl top-1/2 ico-position bg-white py-2 rounded-full text-orange-500
+                          ${inView ? 'animate-lg-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
+                        `} />
+                        :
+                        <FaPhp className={`absolute text-5xl top-1/2 ico-position bg-white py-2 rounded-full text-orange-500
+                          ${inView ? 'animate-lg-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
+                        `} />
+                      }
                     </div>
                     <article className="col-span-2 margin-start pe-14 lg:pe-40 p-10" ref={ref}>
                       <div className={`opacity-0 ${inView ? 'animate-lg-right-work animate-opacity transition-opacity duration-1000 delay-500' : ''}`}>
@@ -50,7 +62,6 @@ export const WorksHistory = () => {
             </InView>
           ))}
       </div>
-
     </section >
   )
 }
