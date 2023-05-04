@@ -1,8 +1,9 @@
 import './App.css';
-import About from './components/About/About';
-import { Home } from './components/Home/Home';
-import { WorksHistory } from './components/WorksHistory/WorksHistory';
-import { WorksHistoryMobile } from './components/WorksHistory/WorksHistoryMobile/WorksHistoryMobile';
+import About from './components/about/About';
+import { Contact } from './components/contact/Contact';
+import { Home } from './components/home/Home';
+import { WorksHistory } from './components/worksHistory/WorksHistory';
+import { WorksHistoryMobile } from './components/worksHistory/WorksHistoryMobile/WorksHistoryMobile';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <WorksHistoryMobile />
       <WorksHistory />
+      <Contact />
     </>
   );
 }

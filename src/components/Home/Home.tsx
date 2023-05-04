@@ -1,4 +1,4 @@
-import SocialBar from '../SocialBar/SocialBar';
+import SocialBar from '../socialBar/SocialBar';
 import './Home.css';
 
 export const Home = () => {
