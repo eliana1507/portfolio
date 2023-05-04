@@ -1,12 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About/About';
+import { Home } from './components/Home/Home';
+import { WorksHistory } from './components/WorksHistory/WorksHistory';
+import { WorksHistoryMobile } from './components/WorksHistory/WorksHistoryMobile/WorksHistoryMobile';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-orange-500">Welcome to my Portfolio!</h1>
-    </div>
+    <>
+      <div className="App box">
+        <Home />
+      </div>
+      <About />
+      <WorksHistoryMobile />
+      <WorksHistory />
+    </>
   );
 }
 

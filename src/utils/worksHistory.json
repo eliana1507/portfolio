@@ -1,0 +1,20 @@
+[
+  {
+    "companyName": "Frisq",
+    "jobDescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "startingDate": "01-03-2022",
+    "endDate": "I'm current work here"
+  },
+  {
+    "companyName": "Jisk",
+    "jobDescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "startingDate": "01-03-2018",
+    "endDate": "30-01-2022"
+  },
+  {
+    "companyName": "Capify",
+    "jobDescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "startingDate": "01-07-2016",
+    "endDate": "30-02-2018"
+  }
+]
