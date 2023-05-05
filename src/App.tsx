@@ -1,6 +1,6 @@
 import './App.css';
 import About from './components/about/About';
-import { Contact } from './components/contact/Contact';
+import { Contact } from './components/contact/Contacts';
 import { Home } from './components/home/Home';
 import { WorksHistory } from './components/worksHistory/WorksHistory';
 import { WorksHistoryMobile } from './components/worksHistory/WorksHistoryMobile/WorksHistoryMobile';

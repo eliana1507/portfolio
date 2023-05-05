@@ -1,17 +1,17 @@
 [
   {
     "link": "mailto:eliana.capplo87@gmail.com",
-    "icon": "FiSmartphone",
+    "icon": "mail",
     "text": "eliana.capplo87@gmail.com"
   },
   {
     "link": "tel:+46 7002 51269",
-    "icon": "FiSmartphone",
-    "text": "<span class='text-indigo-500'> +46 </span> 700 251209"
+    "icon": "phone",
+    "text": "700 251209"
   },
   {
-    "link": "https: //goo.gl/maps/cR7aBr3zKRakg9Fd8",
-    "icon": "<FiSmartphone />",
+    "link": "https://goo.gl/maps/cR7aBr3zKRakg9Fd8",
+    "icon": "map",
     "text": "Bagarmossen, Stockholm"
   }
 ]
