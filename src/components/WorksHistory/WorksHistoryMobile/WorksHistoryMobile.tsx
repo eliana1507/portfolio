@@ -1,6 +1,6 @@
 import './WorksHistoryMobile.css';
 import workList from '../../../utils/worksHistory.json'
-import { FaDotCircle, FaJava } from 'react-icons/fa';
+import { FaJava } from 'react-icons/fa';
 import { InView } from 'react-intersection-observer';
 
 export const WorksHistoryMobile = () => {
@@ -11,7 +11,7 @@ export const WorksHistoryMobile = () => {
         <div className='flex justify-center items-start'>
           <div className="flex flex-col ml-4">
             {workList.map((work, index) => {
-              const delay = index === 1 ? 1500 : index > 1 ? 2500 : 0;
+              const delay = index === 1 ? 700 : index > 1 ? 1000 : 0;
               return (
                 <InView key={index} delay={delay}>
                   {({ inView, ref }) => (
@@ -19,7 +19,6 @@ export const WorksHistoryMobile = () => {
                       ref={ref}
                       className={` border-l-8 border-indigo-500 border-opacity-50 ps-5 relative ${index === workList.length - 1 ? 'mb-0' : ''}`}
                     >
-                      {/* <FaDotCircle className='absolute text-3xl top-1/2 text-yellow-500 l-position' /> */}
                       <FaJava className={`absolute text-5xl top-1/2 l-position bg-white py-2 rounded-full text-orange-500 opacity-0 
                           ${inView ? 'animate-icon animate-opacity transition-opacity duration-1000 delay-500' : ''} 
                         `} />
