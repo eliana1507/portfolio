@@ -1,20 +1,16 @@
-.container {
-  position: relative;
+.contact-animation:hover::before {
+  transform: scale(1.1);
 }
 
-.dissolve-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 150px;
-  height: 150px;
-  opacity: 0;
-  border-radius: 50%;
-  transition: opacity 0.3s ease-in-out;
-  z-index: -1;
+.contact-animation:hover {
+  color: #6466f1;
+  opacity: 0.7;
 }
 
-a:hover .dissolve-circle {
-  opacity: 0.50;
+.flip-icon {
+  transition: transform 0.5s ease;
+}
+
+.contact-animation:hover .flip-icon {
+  transform: rotateY(180deg);
 }

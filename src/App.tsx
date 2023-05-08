@@ -7,7 +7,7 @@ import { WorksHistoryMobile } from './components/worksHistory/WorksHistoryMobile
 
 function App() {
   return (
-    <>
+    <main className='bg-white'>
       <div className="App box">
         <Home />
       </div>
@@ -15,7 +15,7 @@ function App() {
       <WorksHistoryMobile />
       <WorksHistory />
       <Contact />
-    </>
+    </main>
   );
 }
 
