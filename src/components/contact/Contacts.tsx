@@ -5,7 +5,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import './Contacts.css';
 
 export const Contact = () => {
-  const iconStyle = "text-7xl mx-auto";
+  const iconStyle = "text-7xl mx-auto mt-14";
   return (
     <>
       <section className="mt-16 text-center">
@@ -14,7 +14,7 @@ export const Contact = () => {
           contacts.map((contact, index) => (
             <article className="container flex flex-col justify-center align-middle mt-10" key={index}>
               <a href={contact.link} className="text-md mx-auto">
-                <div className="dissolve-circle bg-indigo-500"></div>
+                <div className="dissolve-circle bg-indigo-500 blur-sm"></div>
                 {
                   {
                     'phone': <FiSmartphone className={iconStyle} />,
