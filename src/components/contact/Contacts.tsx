@@ -13,7 +13,7 @@ export const Contact = () => {
         <div className="lg:flex">
           {
             contacts.map((contact, index) => (
-              <article className="container flex flex-col justify-center align-middle mt-10 text-gray-400" key={index}>
+              <article className="container flex flex-col justify-center align-middle mt-10 text-gray-600" key={index}>
                 <a href={contact.link} className="text-md mx-auto contact-animation">
                   <div className="dissolve-circle bg-indigo-500 blur-sm"></div>
                   {
